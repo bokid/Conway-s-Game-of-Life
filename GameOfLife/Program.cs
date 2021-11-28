@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Threading;
 
-namespace GameProgram2
+namespace GameOfLife
 {
     class Program
     {
         static void Main(string[] args)
         {
             Random chaos = new Random();
-            int gridSize = chaos.Next(6, 70);
+            int gridSize = chaos.Next(20, 40);
             int AliveCell = 1;
             int DeadCell = 0;
 
